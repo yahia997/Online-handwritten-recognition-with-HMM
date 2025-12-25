@@ -6,7 +6,7 @@ To keep the idea simple, our domain will be number from 0 to 9, and you can conv
 
 The application uses baum-welch for training models, and all models and idea are implemented from scratch as part of stochastic processes college course.
 
-> **A full math explanation of the idea is in `media/report.pdf`**
+***A full math explanation of the idea is in `media/report.pdf`***
 
 ## Data
 We will create our HMM dataset (From the training tab in the application). Each number is presented as a list of (x,y) points. All these points fall into the line drawn that number. And the data is stored in JSON format. It can be used to fine-tune the HMM model with the Baum-Welch algorithm.
